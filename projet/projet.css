@@ -1,0 +1,242 @@
+/*general*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 45px;
+	color: #444;
+}
+.wrapper{
+	width: 940px;
+	margin:0 auto;
+	position: relative;
+	top: 40px;
+}
+.orange{
+	color: orangered;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #444;
+	text-transform: uppercase;
+	transition: .3s;
+}
+a:hover{
+	color: orangered;
+	transition: .3s;
+}
+.clear{
+	clear: both;
+}
+h2{
+	font-size: 45px;
+	color: white;
+	font-style: italic;
+	text-transform: uppercase;
+}
+header{
+	height: 120px;
+}
+header h1{
+	float: left;
+}
+header nav{
+	float: right;
+}
+header nav ul li{
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+/*acceuil*/
+#acceuil{
+	height: 540px;
+	background: url('image/photo1.jpeg')no-repeat center top;
+	background-size: cover;
+}
+#acceuil h2{
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}	
+.bouton{
+	background: orangered;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	position: relative;
+	top: 200px;
+	padding-bottom: 20px;
+	font-size: 25px;
+	font-family:serif;
+	border: 1px transparent;
+	color: white;
+}
+.bouton:hover{
+	background: rgb(218, 87, 40);
+}
+/*destination*/
+#destination ul li{
+	width: 300px;
+	float: left;
+	padding-top: 120px;
+	margin-right: 10px;
+	text-align: center;
+}
+h4{
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+p{
+	color: #777;
+}
+#destination-1{
+	background: url('image/steps-icon-1.png') no-repeat center top;
+}
+#destination-2{
+	background: url('image/steps-icon-2.png') no-repeat center top;
+}
+#destination-3{
+	background: url('image/steps-icon-3.png') no-repeat center top;
+}
+/*circuit*/
+#circuit{
+	background-color: #efefef;
+	position: relative;
+	top: 100px;
+	padding: 60px 0;
+}
+#circuit article{
+		width: 460px;
+		height: 260px;
+		float: left;
+		border-radius: 10px;
+}
+.overlay{
+	background: rgb(255,255,255,0.95);
+}
+#circuit article:first-child{
+	margin-right: 20px;
+}
+.tof{
+	background-size:  cover;
+}
+#circuit h4{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+#circuit p{
+	font-weight: bold;
+	color:white;
+	text-transform: uppercase;
+	font-style: italic;
+	position: relative;
+	top: 90px;
+	text-align: center;
+}
+.bouton-2{
+	border-radius: 5px;
+	width: 100px;
+	height: 20px;
+	background: orangered;
+	border: 1px transparent;
+	position: relative;
+	top: 100px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	color: white;
+	transition: .2s;
+}
+.bouton-2:hover{
+	background: rgb(218, 87, 40);
+	transition: .2s;
+}
+#contact{
+	padding:60px 0;
+}
+#contact h3{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 10px;
+	position: relative;
+	top: 15px;
+	border-bottom: 1px solid rgb(101, 202, 241);
+	margin: 0px auto 20px auto;
+	padding-bottom: 20px;
+}
+#contact p{
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+.de{
+	padding: 60px 0;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+label{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+input[type="text"]{
+	 padding: 10px;
+	 font-size: 20px;
+	 margin-right: 20px;
+	 border: 1px solid #ddd;
+	 border-radius: 3px;
+}
+input[type="email"]{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+.boutton-3{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px;
+	background-color: #02b8dd;
+	border-style: none;
+	border-radius: 3px;
+}
+.boutton-3:hover{
+	color: #fff;
+	background-color: #444;
+}
+.footer{
+	background:#444;
+	height: 340px;
+}
+.h1{
+	text-align: center;
+	position:relative;
+	top: 100px;
+	color: white;
+}
+.p{
+	text-align: center;
+	position: relative;
+	top: 130px;
+}
